@@ -158,7 +158,8 @@
             </div>
 
             <!-- 2. Time Card (WorldTime API) -->
-            <div class="glass-card p-4 rounded-3xl flex flex-col justify-between relative overflow-hidden">
+            <!-- col-span-2 클래스를 추가하여 모바일에서 가로 전체를 차지하게 변경했습니다 (PC에서는 md:col-span-1로 절반 유지) -->
+            <div class="glass-card p-4 rounded-3xl col-span-2 md:col-span-1 flex flex-col justify-between relative overflow-hidden">
                 <div class="flex justify-between items-start mb-2">
                     <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Time</span>
                     <div class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
